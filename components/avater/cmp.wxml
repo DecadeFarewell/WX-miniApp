@@ -1,0 +1,7 @@
+<!--components/avater/cmp.wxml-->
+<view class='container'>
+  <view class='mark-container'>
+    <image class='avater' src='{{src}}'></image>
+    <text class='text' decode="true">{{name}}&nbsp;等{{num}}人马克了</text>
+  </view>
+</view>

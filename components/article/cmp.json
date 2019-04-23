@@ -1,0 +1,15 @@
+{
+  "component": true,
+  "usingComponents": {
+    "x-bigImg": "/components/bigImg/cmp",
+    "x-pureText": "/components/pureText/cmp",
+    "x-imgText": "/components/imgText/cmp",
+    "x-nineImg": "/components/nineImg/cmp",
+    "x-video": "/components/video/cmp",
+    "x-tag": "/components/tag/cmp",
+    "x-more": "/components/more/cmp",
+    "x-like": "/components/like/cmp",
+    "x-avater": "/components/avater/cmp",
+    "x-imgBtn": "/components/imgBtn/cmp"
+  }
+}

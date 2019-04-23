@@ -1,0 +1,36 @@
+
+.nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.recommend{
+    display: block;
+    margin-top: 110rpx;
+}
+.add{
+    margin-right: 20rpx;
+}
+
+.to-catalog{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10rpx 20rpx;
+    font-size: 28rpx;
+}
+.loading-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -30rpx;
+    margin-left: -30rpx;
+}

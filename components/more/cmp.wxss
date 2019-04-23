@@ -1,0 +1,9 @@
+/* components/more/cmp.wxss */
+.container{
+  vertical-align: bottom;
+  padding: 0 10rpx;
+}
+.image{
+  width: 50rpx;
+  height: 50rpx;
+}

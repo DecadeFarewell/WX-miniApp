@@ -1,0 +1,15 @@
+
+<x-nav class="nav" catch:nav="onNav"/>
+
+<x-recommend recommend="{{recommend}}" class="recommend" magazineId="{{magazineId}}"/>
+
+<view class="loading-container" wx:if="{{loading}}">
+    <x-loading class="loading"/>
+</view>
+
+<x-tagList markList="{{markList}}">
+    <x-add slot="before" class="add" wx:if="{{magazineId == 0}}"></x-add>
+    <view slot="after" class="to-catalog" catchtap="onCatalog" wx:if="{{magazineId == 0}}">···</view>
+</x-tagList>
+
+<x-articleList articleList="{{articleList}}" more="{{getMore}}" magazineId="{{magazineId}}" />

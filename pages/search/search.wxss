@@ -1,0 +1,25 @@
+/* pages/search/search.wxss */
+
+.recommend-container{
+    margin: 40rpx 20rpx;
+    padding: 50rpx;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #fff
+}
+.title{
+    margin-bottom: 30rpx;
+    font-size: 40rpx;
+    font-weight: 600;
+}
+.item{
+    font-size: 25rpx;
+    line-height: 60rpx;
+}
+
+.load-container{
+    height: 300rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

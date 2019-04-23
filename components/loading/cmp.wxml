@@ -1,0 +1,6 @@
+<!--components/circle/cmp.wxml-->
+
+<view class='container' hidden="{{hidden}}">
+  <view class='circle'></view>
+  <view class='circle _circle'></view>
+</view>

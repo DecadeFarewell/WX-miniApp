@@ -1,0 +1,45 @@
+<!--components/article/cmp.wxml-->
+<view class='container'>
+  <view class='header'>
+    <x-avater src="{{avaterUrl}}" name="{{name}}" num="99" />
+  </view>
+
+  <view>
+    <x-bigImg wx:if="{{articleDetails.type === 0}}"
+              imgSrc="{{articleDetails.imgArray[0]}}"
+              mainTitle="{{articleDetails.mainTitle}}"/>
+
+    <x-nineImg wx:if="{{articleDetails.type === 1}}" 
+                imgArr="{{articleDetails.imgArray}}"
+                mainTitle="{{articleDetails.mainTitle}}"/>
+
+    <x-imgText wx:if="{{articleDetails.type === 2}}" 
+                imgSrc="{{articleDetails.imgArray[0]}}"
+                mainTitle="{{articleDetails.mainTitle}}"
+                subHead="{{articleDetails.subHead}}"/>
+
+    <x-video wx:if="{{articleDetails.type === 3}}"
+              src="{{articleDetails.video.src}}"
+              poster="http://img.soogif.com/1xT0Z2bsiupXu41m44g6Syonqpq1upV8.gif_s400x0"
+              duration="{{articleDetails.video.duration}}"
+              id="{{articleDetails.video.id}}"
+              mainTitle="{{articleDetails.mainTitle}}"/>
+
+    <x-pureText wx:if="{{articleDetails.type === 4}}" 
+                mainTitle="{{articleDetails.mainTitle}}"
+                subHead="{{articleDetails.subHead}}"/>
+  </view>
+
+  <view class='control-container'>
+    <view>
+      <x-tag tag="{{articleDetails.tag || articleDetails.type }}" tagId="{{articleDetails.tagId}}" />
+    </view>
+    <view class='control-box'>
+      <x-more class="box" tag="{{articleDetails.tag}}" />
+      <x-imgBtn class="box imgBtn"  src="/images/mark/relay.png" open-type="share"/>
+      <x-like class="box like" like="{{likeStatus}}" catch:like="onLike"/>
+    </view>
+
+
+  </view>
+</view>

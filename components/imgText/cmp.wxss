@@ -1,0 +1,32 @@
+.container{
+  width: 650rpx;
+  padding: 10rpx 20rpx;
+  /* border: 1px solid black; */
+  display: flex;
+
+}
+.text-box{
+  flex: 0 0 70%;
+  padding-right: 10rpx;
+}
+.main-title{
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+
+.sub-head{
+  color: #666;
+  font-size: 26rpx;
+  letter-spacing: 2rpx;
+}
+
+.image-box{
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+}
+.image-box image{
+  width: 180rpx;
+  height: 170rpx;
+}

@@ -1,0 +1,23 @@
+/* components/article/cmp.wxss */
+.container{
+  background: #fff;
+}
+.control-container{
+  display: flex;
+  padding: 10rpx 20rpx;
+  margin-top: 20rpx;
+  justify-content: space-between;
+}
+
+.control-box{
+  display: flex;
+}
+.control-box .box{
+  display: block;
+  margin-right: 30rpx;
+}
+.control-box .box.imgBtn image{
+  width: 50rpx;
+  height: 50rpx;
+  padding-bottom: 30rpx;
+}

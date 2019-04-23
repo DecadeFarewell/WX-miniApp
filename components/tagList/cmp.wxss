@@ -1,0 +1,11 @@
+/* components/tagList/cmp.wxss */
+
+.container{
+    padding: 25rpx;
+    background-color: #fff;
+}
+.markType{
+    display: inline-block;
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+}

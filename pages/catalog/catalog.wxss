@@ -1,0 +1,33 @@
+/* pages/catalog/catalog.wxss */
+.mark-container{
+    width: 700rpx;
+    margin: 0 auto;
+}
+.mark-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40rpx 0;
+}
+.my-magazine{
+    font-size: 40rpx;
+}
+.manage-magazine{
+    font-size: 30rpx;
+}
+.catalog{
+    margin-top: 50rpx;
+}
+.tag-list-container{
+    padding: 10rpx 30rpx;
+    margin-bottom: 50rpx;
+}
+
+.tag{
+    padding: 30rpx 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tag-text{
+    font-size: 32rpx;
+}

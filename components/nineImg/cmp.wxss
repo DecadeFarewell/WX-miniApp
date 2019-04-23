@@ -1,0 +1,34 @@
+
+.container{
+  padding: 0 5rpx;
+  width: 700rpx;
+}
+
+.img-box{
+  width: 700rpx;
+  height: 700rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.img-box image{
+  width: 31%;
+  height: 31%;
+}
+.img-box .img-num{
+  position: absolute;
+  right: 80rpx;
+  bottom: 80rpx;
+  padding: 5rpx 10rpx;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.text-box{
+  padding: 0 30rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+  text-indent: 1em;
+}
